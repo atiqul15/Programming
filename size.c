@@ -1,4 +1,4 @@
-/*this is code of sizeof that is used for 
+/*this is code of sizeof %zu that is used for 
 knowing size of a variable*/
 
 #include<stdio.h>
@@ -9,9 +9,9 @@ int main()
     double k;
     char c;
 
-    printf("Size of int :%d bytes\n" , sizeof(i));
-    printf("Size of float :%d bytes\n" , sizeof(j));
-    printf("Size of double :%d bytes\n" , sizeof(k));
-    printf("Size of char :%d bytes" , sizeof(c));
+    printf("Size of int :%zu bytes\n" , sizeof(i));
+    printf("Size of float :%zu bytes\n" , sizeof(j));
+    printf("Size of double :%zu bytes\n" , sizeof(k));
+    printf("Size of char :%zu bytes" , sizeof(c));
 
 }
