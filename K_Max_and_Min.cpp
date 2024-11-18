@@ -5,16 +5,14 @@ int main(){
 
  if (a<b && a<c)
  {
-    printf("%d ",a);
+    printf("%d",a);
  }
  if (b>a && b>c)
  {
-    printf("%d ",b);
+    printf(" %d",b);
  }
  if (c>a && c>b)
  {
-    printf("%d ",c);
+    printf(" %d",c);
  }
- 
-   
 }
